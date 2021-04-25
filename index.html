@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends| WatchPlay</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md" style="z-index: 2000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/Logo.jpg" alt="Logo" height="30" unselectable="on" />
+            </a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">TV Shows</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Series</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex flex-row ms-auto" id="icons">
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href='#'>
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#" title="User">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row text-light mb-5 a">
+        <div class="col-lg-5">
+            <i class="fas fa-star text-warning"></i> 9.7<br>
+            <img src="https://assets.www.warnerbros.com/drupal-root/public/friends_title_treatment.png"
+                alt="FRIENDS Logo" class="w-75 my-4" unselectable="on">
+            <h2>F.R.I.E.N.D.S</h2>
+            <span class='text-muted'>1994 | 13+ | 10 Seasons | Sitcoms</span><br><br>
+            <div class="fs-6">
+                This hit sitcom follows the merry misadventures of six 20-something pals as they navigate the
+                pitfalls
+                of
+                work, life and love in 1990s Manhattan.<br><br>
+                <span class='text-muted fs-5'>Starring:</span><br> Jennifer Aniston, Courteney Cox, Lisa Kudrow,
+                Matt LeBlanc, Matthew Perry, David Schwimmer<br>
+                <span class='text-muted fs-5'>Creators:</span><br> David Crane, Marta Kauffman
+            </div><br>
+            <center>
+                <button type="button" class="btn btn-danger mb-3 mx-3">Watch Now <i class="fas fa-play-circle"></i></button>
+                <button type="button" class="btn btn-light mb-3"> <i class="fas fa-plus"></i> My Favourites</button>
+            </center>
+        </div>
+        <div class="col-lg-7 mb-2 mt-3" id="col2">
+            <h2>Actors</h2>
+            <div class="d-flex" id="characters">
+                <div class=''>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/David_Schwimmer_2011.jpg/220px-David_Schwimmer_2011.jpg"
+                        alt="David Schwimmer" charac="y" class='rounded thumbnail' id="ross">
+                </div>
+                <div class=''>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Matthew_Perry_2013.jpg/220px-Matthew_Perry_2013.jpg"
+                        alt="Matthew Perry" charac="y" class='rounded thumbnail mx-2' id='chandler'>
+                </div>
+                <div class=''>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/X_217c5312.jpg/220px-X_217c5312.jpg"
+                        alt="Matt le Blanc" charac="y" class='rounded thumbnail mx-2' id='joey'>
+                </div>
+                <div class=''>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Courteney_Cox_%2710_PaleyFest.jpg/220px-Courteney_Cox_%2710_PaleyFest.jpg"
+                        alt="Courteney Cox" charac="y" class='rounded thumbnail mx-2' id="monica">
+                </div>
+                <div class="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lisa_Kudrow_at_TIFF_2009.jpg/220px-Lisa_Kudrow_at_TIFF_2009.jpg"
+                        alt="Lisa Kundorw" charac="y" class='rounded thumbnail mx-2' id='phoebe'>
+                </div>
+                <div class=''>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/JenniferAnistonHWoFFeb2012.jpg/220px-JenniferAnistonHWoFFeb2012.jpg"
+                        alt="Jennifer Aniston" charac="y" class='rounded thumbnail mx-2' id='rachel'>
+                </div>
+            </div>
+
+            <div class="detail mt-4 d-flex align-items-center">
+                <span class="name fs-4">David Schwimmer</span>
+                <img src="./Images/sofa.png" alt="actio" id='action' class="act ms-auto mx-5" unselectable="on">
+                <audio id="pivot1" preload="auto">
+                    <source src="https://www.google.com/logos/fnbx/friends/ross_pivot_1.mp3">
+                    </source>
+                </audio>
+                <audio id="pivot2" preload="auto">
+                    <source src="https://www.google.com/logos/fnbx/friends/ross_pivot_2.mp3">
+                    </source>
+                </audio>
+                <audio id="pivot3" preload="auto">
+                    <source src="https://www.google.com/logos/fnbx/friends/ross_pivot_3.mp3">
+                    </source>
+                </audio>
+                <audio id="sofacut" preload="auto">
+                    <source src="https://www.google.com/logos/fnbx/friends/ross_couch_cut.mp3">
+                    </source>
+                </audio>
+                <audio id="pivot4" preload="auto">
+                    <source src="https://www.google.com/logos/fnbx/friends/ross_its_not_gonna_pivot.mp3">
+                    </source>
+                </audio>
+                <audio id="food" preload="auto">
+                    <source src="./Audio/Joey.mp3">
+                    </source>
+                </audio>
+                <audio id="cat" preload="auto">
+                    <source src="./Audio/smelly_cat.mp3">
+                    </source>
+                </audio>
+                <audio id="chand" preload="auto">
+                    <source src="./Audio/Chandler Bing 2012.mp3">
+                    </source>
+                </audio>
+            </div>
+            <div class="more fs-6 fw-light">David Lawrence Schwimmer is an American actor, comedian, director and
+                producer. Schwimmer began his acting career performing in school plays at Beverly Hills High School.
+            </div>
+            <br>
+            <div class="d-flex">
+                <a href="https://www.instagram.com/_schwim_" id="ig"><i
+                        class="fab fa-instagram text-light mx-2"></i></a>
+                <a href="https://twitter.com/DavidSchwimmer" id='tweet'><i
+                        class="fab fa-twitter text-light mx-2"></i></a>
+                <a href="https://www.facebook.com/DavidSchwimmerOfficial" id="fb"><i
+                        class="fab fa-facebook text-light mx-2"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="stream" class="my-5" style='margin:10px 30px;'>
+        <div data-aos="fade-right" data-aos-once="true">
+        <h1 class='text-light text-center' style="font-family: 'Zen Dots', cursive;"><span
+                class="text-danger">S</span><span style="text-decoration: underline #F93154 2px;">tream</span> <span
+                class="text-danger">N</span><span style="text-decoration: underline #F93154 2px;">ow</span></h1></div>
+        <span class="text-light fs-3">Episodes</span> | FRIENDS<br>
+        <div class="btn-group shadow-0 my-3">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                Season 1
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Season 1</a></li>
+                <li><a class="dropdown-item" href="#">Season 2</a></li>
+                <li><a class="dropdown-item" href="#">Season 3</a></li>
+                <li><a class="dropdown-item" href="#">Season 4</a></li>
+                <li><a class="dropdown-item" href="#">Season 5</a></li>
+                <li><a class="dropdown-item" href="#">Season 6</a></li>
+                <li><a class="dropdown-item" href="#">Season 7</a></li>
+                <li><a class="dropdown-item" href="#">Season 8</a></li>
+                <li><a class="dropdown-item" href="#">Season 9</a></li>
+                <li><a class="dropdown-item" href="#">Season 10</a></li>
+            </ul>
+        </div>
+        <div class="row justify-content-center mb-4" id="s1">
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYLRwXDYvf80a_KIIUV3nPJ4nQYNCYQUwiKZVwD6L6cKTylFIwRAA-HLN8Y-V_BeBddfh4uEjrRzhr3OkscZHjYjHHlL0GcZOOoJMQ9LO16qlvk0.jpg?r=42d"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">1. The One Where Monica Gets a Roommate (Pilot)</h5>
+                    <p class="card-text text-muted">
+                        Rachel runs from her wedding and meets the friends in the coffee place. Ross is depressed
+                        about his divorce but he still has a crush on Rachel.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfIkqbCCNWbisc85DNmpK7MmddALCIGXisRhyQKNsWSOyyxuOUhKbIg9JqNH3DM5XHxaGgWY7BNSvY3Blf57OoXDogs1SETj_qiG9TohBzihgXXr.jpg?r=32a"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">2. The One with the Sonogram at the End</h5>
+                    <p class="card-text text-muted">
+                        Ross's lesbian ex-wife is pregnant with his child, and he doesn't like her choice of a last
+                        name for the baby.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABde6qbrdf9-WBcWrt-oBnwtVkqVmBmsReOgAGoKF0coS1coBpRmT_4UODBzUZ-MGL937_zhCssBCF03ib2SwhdadWjSUY2IGwXfZjkubV0yGK49S.jpg?r=5e4"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">3. The One with the Thumb</h5>
+                    <p class="card-text text-muted">
+                        A soda company gives Phoebe $7,000 after she finds a dismembered thumb in a can of soda.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABah87WOvgHrTH1GmH9_0oxRWm7VYqVQZXzd2Z4sw86HVAgsNTVUhHfdSDgA6o8ZaCSFCy6eidlW6ZqdTmzaeoWAeVwQnJFL4JNgebhj5ktHMDf7k.jpg?r=d3a"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">4. The One with George Stephanopoulos
+                    </h5>
+                    <p class="card-text text-muted">
+                        A deliveryman accidentally brings a pizza meant for George Stephanopoulos, who lives across
+                        the street from the girls.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="  https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXJNHUzaPUBNFu_hvAo-S2Jnuy1We0QiP3ENBB634NDSNWuPUKqhGQuSFuo68_D8QYOm4oUGx5YnxENRmq84iHPyYtOGHp0QyD_UNE9vCCk6R870.jpg?r=e0d"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">5. The One with the East German Laundry Detergent
+                    </h5>
+                    <p class="card-text text-muted">
+                        Ross helps Rachel do laundry and considers the evening a first date. Joey has Monica pose as
+                        his new girlfriend.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQEwKRmrFETlhlmXxLP55wqkb7XqyLIaBP-uRAVlmddPg3aQDfK9hu5GPsYoeKXxXc12vSSme4GCyVclbTW-V0Xu4YxFSaSacPoGcu2yrnKqwP1H.jpg?r=ae7"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">6. The One with the Butt</h5>
+                    <p class="card-text text-muted">
+                        Joey gets his big film break when he's hired to be Al Pacino's stunt butt.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdvyCRG4ebAQJreIcc1OGqy59PGpOv2oJFxygoJXxvKSDsusdRxW9Bk184TQ5pZJo7kyRn9n1WND6qGdZLA95cV4efRLLJhH-WshohLsM-AmC63R.jpg?r=9b3"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">7. The One with the Blackout</h5>
+                    <p class="card-text text-muted">
+                        During a citywide blackout, Ross tries to tell Rachel that he likes her.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdmVt8Y6LeSBxubc_u4cp_GIEyK9dFupjcFV5CDzaR9VdwZ1Fs4eD1xo6yrTxUFub45FTN_ZN6rzCXIiP8fSLIeuPBlyeVDUiN6-C9tiZ0klXMyM.jpg?r=d05"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">8. The One Where Nana Dies Twice </h5>
+                    <p class="card-text text-muted">
+                        Monica and Ross mourn the death of their grandmother. Chandler questions his sexuality.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABX7KYC30hdJlh1o7FOQzOJ7TLRRq_QlTUeD0jNiXNyZiSlmWg769-1jzboSg3o9jH--onfql5CZBHxd21a8yZrGiWYe1Yhbgu7U91p6d5-0qd_g6.jpg?r=136"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">9. The One Where Underdog Gets Away </h5>
+                    <p class="card-text text-muted">
+                        Monica's first Thanksgiving dinner for the gang burns when they all run to the rooftop to
+                        see the runaway Underdog balloon from the parade.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2596-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABemozrhXv1cdLbS5Hr543VuxAN-sP6e3pVICX4yZ422SeEtJY3NKqeqm1de5LQg5shd-8_etFm9emJUsIwe53vyG9-RWXr0ipR837Mj2CprVjyj0.jpg?r=b07"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">10. The One with the Monkey </h5>
+                    <p class="card-text text-muted">
+                        The gang makes and then breaks a pact to celebrate New Year's Eve without dates. Lonely Ross
+                        gets a roommate: a monkey named Marcel.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXILQahQwwga5t9lBzb-2NiXEIoLl8O3va6QLUhk-l8lz-O-3NOhw9eSiqQtoJmQt50DUDt9j8Va3sKrzzFgH9Nub-_Y3JfMP-4R_5BmmsyT1Z5F.jpg?r=4c9"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">11. The One with Mrs. Bing
+                    </h5>
+                    <p class="card-text text-muted">
+                        When Chandler's romance novelist mother comes to New York to visit him, Joey catches her and
+                        Ross kissing.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeVTrDDItgfVR5hHPIRHWM6b4FOfhZ0MsgPZA-PxbSiMS10iY__W6TfxthOvBJRJtk_OCZltGu4J_g0yASy4w0dFBw5RAkQCS5wIZdCmidBYPLOV.jpg?r=576"
+                    class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">12. The One with the Dozen Lasagnas </h5>
+                    <p class="card-text text-muted">
+                        Monica gives Paolo one of the dozen lasagnas she made for her aunt, who doesn't want them
+                        anymore because they've got meat in them.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3 fs-6 text-light">
+            <h2 class="text-light mb-4">More Details </h2>
+            <div class="my-1 col-lg-4 ">
+                <span class="text-muted fs-5">Watch Offline</span><br>Available to download
+            </div>
+            <div class="col-lg-4 my-1">
+                <span class="text-muted fs-5">Genres</span><br>Sitcoms, TV Comedies, US TV Shows
+            </div>
+            <div class="col-lg-4 my-1">
+                <span class="text-muted fs-5">This show is...</span><br>Witty, Quirky
+            </div>
+            <div class="text-muted fs-5">Cast</div>
+            <div class="col-4">Jennifer Aniston<br>David Schwimmer</div>
+            <div class="col-4">Courteney Cox <br>Matthew Perry</div>
+            <div class="col-4">Lisa Kundrow <br>Matt LeBlanc
+            </div>
+        </div>
+    </div>
+    <div id="others" class="my-4 a text-light">
+        <h3>More TV Shows & Movies</h3>
+        <div class="row">
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUvok76SSfWu5V9I4NwwIXfBRlJj1HsZsNjsmLnTRu6TUBLV135kYCdvdCQLWhK0p0e57YXAD__daeXzxqYPjzmA1Sap.jpg?r=2e4"
+                    alt="" class='images'>
+            </div>
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQpnukWfkDTP_9MiSmxx_iBdANeGSRfXdkKLS36SuRBVjJy0k7gOL_yvUw5Jh5U0ZZFHZJJJWgceh4-xwB1wiKZwWRwG.jpg?r=2f7"
+                    alt="" class='images'>
+            </div>
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWaX9kQIxQdLLAtGtczz1F_q_QwTEcDYIEEi01wuagZh7RyPomnfYvhCJ-6lF1Cup8sHyjCao_amnkmjGkfUft5ibsizX4D5kP_y0jGc5CfKUvNPXbTG6qslPRfIug.jpg?r=91e"
+                    alt="" class='images'>
+            </div>
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWO4E6oVPpXMhJf5bqFLj-a0rUubyYf15RgGd3LiIWJ_bESwcGPJi9M-S4sJuvghO16pYAnhon_Hgxp8aDewBfZpodKM.jpg?r=ab3"
+                    alt="" class="images">
+            </div>
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVAqAjTy802DOSakL9HLFSTC08_X_sG6XhjelOa-r0xW56CXd7OWCA5K4SDSsKy1K7F8XJ1bRYmbfTSgJq-MY8_7vqDpa1wehT0-JW9KXbHUeaXYsiV9JNPYb7mnsg.jpg?r=7cb"
+                    alt="" class="images">
+            </div>
+            <div class="col-4">
+                <img src="https://occ-0-2164-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdlPv9MtFRQ7iuCGHaOLnK9EOpqopd6ydPN0VLrMa0m2Qhm-cqn3kwkTfm531dMj_zVIxizeLFQ_WUVblvAs--TRApCU.jpg?r=f31"
+                    alt="" class="images">
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-white" style="background: rgba(0,0,0,0.9);">
+        <div class="container p-4">
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="mb-4 text-muted">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </section>
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled fs-6 mb-0">
+                            <li>
+                                <a href="#!" class="text-muted">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Investor Relations</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Speed Test</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled fs-6 mb-0">
+                            <li>
+                                <a href="#!" class="text-muted">Help Centre</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Cookie Preferences</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Legal Notices</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled fs-6 mb-0">
+                            <li>
+                                <a href="#!" class="text-muted">Account</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Ways to Watch</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Corporate Information</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Originals</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled fs-6 mb-0">
+                            <li>
+                                <a href="#!" class="text-muted">Media Centre</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Terms of Use</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-muted">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>  
+        </div>
+        <hr>
+        <div class="text-center my-1" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="#!">WatchPlay</a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            
+            var active = 'ross';
+            var so = 0, open = false;
+            document.onclick = function (e) {
+                change = false;
+                var last = active;
+                if (e.target.getAttribute("charac") == 'y') {
+                    active = e.target.getAttribute("id");
+                }
+                if (last != active) {
+                    change = true;
+                    $("body").css("background-image", "url('./Images/BG1.gif')")
+                    $("#action").css({ 'transform': 'rotate(0deg)' }).fadeIn();
+                    $('audio').each(function () {
+                     this.pause(); // Stop playing
+                     this.currentTime = 0;
+                });
+                }
+                if (active == "ross" && change) {
+                    $("#action").attr("src", "./Images/sofa.png");
+                    $(".name").text("David Schwimmer")
+                    $(".more").text("David Lawrence Schwimmer is an American actor, comedian, director and producer. Schwimmer began his acting career performing in school plays at Beverly Hills High School.")
+                    $("#tweet").attr("href", "https://twitter.com/DavidSchwimmer");
+                    $("#fb").attr("href", "https://www.facebook.com/DavidSchwimmerOfficial");
+                    $("#ig").attr("href", "https://www.instagram.com/_schwim_");
+                    so = 0;
+                }
+                if (active == "chandler" && change) {
+                    $("#action").attr("src", "./Images/BarC.png");
+                    $(".name").text("Matthew Perry");
+                    $(".more").text("Matthew Langford Perry is an American-Canadian actor, comedian, executive producer, screenwriter, and playwright who most notably played the role of Chandler Bing on the NBC television sitcom Friends, which ran from 1994 to 2004. ")
+                    open = true;
+                    $("#ig").attr("href", "https://www.instagram.com/mattyperry4");
+                    $("fb").attr("href", "https://www.facebook.com/MatthewPerry");
+                    $("#tweet").attr("href", "https://twitter.com/MatthewPerry");
+                }
+                if (active == "monica" && change) {
+                    $("#action").attr("src", "./Images/Monica.png");
+                    $(".name").text("Courtney Cox");
+                    $(".more").text("Courteney Bass Cox is an American actress, producer, and director. She gained recognition for her starring role as Monica Geller on the NBC sitcom Friends, for which she received seven Screen Actors Guild Award nominations, of which she won one.")
+                    $("#ig").attr("href", "https://www.instagram.com/courteneycoxofficial");
+                    $("#tweet").attr("href", "https://twitter.com/CourteneyCox");
+                    $("#fb").attr("href", "https://www.facebook.com/courteneycoxofficial");
+                }
+                if (active == "joey" && change) {
+                    $("#action").attr("src", "./Images/pizza.png");
+                    $(".name").text("Matt LeBlanc");
+                    $(".more").text("Matthew Steven LeBlanc is an American actor and comedian. He garnered global recognition with his portrayal of Joey Tribbiani in the NBC sitcom Friends and in its spin-off series Joey. For his work on Friends, Le Blanc received three nominations at the Primetime Emmy Awards.")
+                    $("#ig").attr("href", "https://www.instagram.com/mleblanc");
+                    $("#tweet").attr("href", "https://twitter.com/Matt_LeBlanc");
+                    $("#fb").attr("href", "https://www.facebook.com/MattLeBlancOfficial");
+                }
+                if (active == "phoebe" && change) {
+                    $("#action").attr("src", "./Images/Guitar.png");
+                    $(".name").text("Lisa Kundrow");
+                    $(".more").text("Lisa Valerie Kudrow is an American actress, comedian, writer, and producer. After making appearances in several 1980s television sitcoms, Kudrow came to international prominence in the 1990s portraying Phoebe Buffay in the American sitcom Friends, which earned her Primetime Emmy and Screen Actors Guild awards.")
+                    $("#ig").attr("href", "https://www.instagram.com/lisakudrow");
+                    $("#fb").attr("href", "https://www.facebook.com/LisaKudrow");
+                    $("#tweet").attr("href", "https://twitter.com/LisaKudrow");
+                }
+                if (active == "rachel" && change) {
+                    $("#action").attr("src", "./Images/Rachel.png");
+                    $(".name").text("Jennifer Aniston");
+                    $(".more").text("Jennifer Joanna Aniston is an American actress, producer, and businesswoman. She began working as an actress at an early age with an uncredited role in the 1988 film Mac and Me; her first major film role came in the 1993 horror comedy Leprechaun.");
+                    $("#ig").attr("href", "https://www.instagram.com/jenniferaniston");
+                    $("#tweet").attr("href", "https://twitter.com/JenniferAnnistn");
+                    $("#fb").attr("href", "https://www.facebook.com/JenniferAniston");
+                }
+            }
+            $("#action").on("click", function () {
+                if (active == "ross") {
+                    if (so == 0) {
+                        $(this).css({ 'transform': 'rotate(5deg)' });
+                        $("#pivot1")[0].play();
+                        so++;
+                    }
+                    else if (so == 1) {
+                        $(this).css({ 'transform': 'rotate(-5deg)' });
+                        $("#pivot2")[0].play();
+                        so++;
+                    }
+                    else if (so == 2) {
+                        $(this).css({ 'transform': 'rotate(8deg)' });
+                        $("#pivot3")[0].play();
+                        so++;
+                    }
+                    else if (so == 3) {
+                        $(this).css({ 'transform': 'rotate(0deg)' });
+                        $("#sofacut")[0].play();
+                        $("#action").attr("src", "./Images/sofab.png");
+                        $("#pivot4")[0].play();
+                        so++;
+                    }
+                }
+                if (active == "joey") {
+                    $(this).fadeOut("5000");
+                    $("#food")[0].play();
+                }
+                if (active == "monica") {
+                    $("body").css("background-image", "url('./Images/BG2.gif')")
+                    setTimeout(() => {
+                        $("body").css("background-image", "url('./Images/BG1.gif')")
+                    }, 3000)
+                }
+                if (active == "rachel") {
+                    var win = window.open('https://www.google.com/search?q=The+Rachel&tbm=isch&ved=2ahUKEwjWs6qjwpnwAhX-3nMBHU9RBicQ2-cCegQIABAA&oq=The+Rachel&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgYIABAIEB46BAgAEBg6BggAEAoQGFD2DlizEmDEFGgAcAB4AIABpQGIAckCkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=zHCFYNadF_69z7sPz6KZuAI&bih=625&biw=1366', '_blank');
+                    if (win) {
+                        //Browser has allowed it to be opened
+                        win.focus();
+                    } else {
+                        //Browser has blocked it
+                        alert('Please allow popups for this website');
+                    }
+                }
+                if (active == "phoebe") {
+                    $("#cat")[0].play();
+                }
+                if (active == "chandler") {
+                    if (open) {
+                        $("#action").attr("src", "./Images/Baro.png")
+                        $("#chand")[0].play();
+                        open = false;
+                    }
+                }
+            })
+
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
